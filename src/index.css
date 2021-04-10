@@ -11,3 +11,58 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#home1 {
+  margin: 0 auto;
+  /* position: absolute; */
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.boxes {
+  background-color: #fae9e5;
+}
+
+#box1 {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+nav ul a {
+  font-weight: bold;
+  color: black;
+}
+nav {
+  color: black !important;
+  background-color: #fff;
+}
+
+#header {
+  font-size: 35px;
+  font-weight: bold;
+  position: absolute;
+  top: 0px;
+  margin: 0 auto;
+  left: 45%;
+}
+
+#box3 {
+  padding: 100px;
+  text-align: center;
+}
+#searchHeader {
+  position: sticky;
+  top: 0px;
+  background: #fff;
+  z-index: 999;
+}
+#divHeaderContainer {
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  width: 80%;
+}
+.makeStyles-formControl-46 {
+  margin: 17px;
+}
